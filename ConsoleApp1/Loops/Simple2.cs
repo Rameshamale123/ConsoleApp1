@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1.Loops
 {
-    internal class Simple2         // sum of number from 1 to that number 
+    internal class Simple2         // sum of number from 1 to that number ss
     {
         static void Main(string[] args)
         {
@@ -161,6 +161,62 @@ namespace ConsoleApp1.Loops
             Console.WriteLine(power);
         }
     }
+    class Break
+    {
+        static void Main(string[] args)
+        {
+          for(int i=1;i<=5;i++)
+            {
+                if(i==4)
+                {
+                    break;
+                }
+                Console.WriteLine(i);
+            }
+        }
+    }
+    class Continue
+    {
+        static void Main(string[] args)
+        {
+           for(int i=1;i<=6;i++)
+           {
+                if(i==4)
+                {
+                    continue;
+                }
+                Console.WriteLine(i);
+           }
+                
+        }
+    }
+    class Continue1                 // 1 to 20 number display but dont print nu whioch 
+    {                                        //divisible by 3
+        static void Main(string[] args)
+        {
+            for(int i=1;i<=20;i++)
+            {
+                if(i%3==0)
+                {
+                    continue;
+                }
+                Console.WriteLine(i);
+            }
+            
+        }
+    }
+    class Equilateral           // area of equilateral triangle 
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("enter the side of triangle");
+            int a = int.Parse(Console.ReadLine());
+            double area = (1.73 * a * a) / 4;
+            Console.WriteLine(area);
+
+        }
+    }
+
     /*class Output
     {
         static void Main(string[] args)
