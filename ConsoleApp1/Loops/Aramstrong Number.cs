@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1.Loops
 {
-    internal class AramstrongNumber
+    internal class Aramstrongnumber
     {
-        public bool IScheck(int num)
+        public bool IScheck(int num)                  // with return type with parameter  
         {
             int copynum = num;
             int sum = 0;
@@ -22,9 +22,9 @@ namespace ConsoleApp1.Loops
                 num = num / 10;
 
             }
-            if (copynum == sum)
+            if (copynum == sum)      
             {
-                return true;
+                return true;    
             }
             else
             {
@@ -33,9 +33,9 @@ namespace ConsoleApp1.Loops
         }
 
 
-        static void Main(string[] args)
+        static void Main(string[] args)                         
         {
-            AramstrongNumber s = new AramstrongNumber();
+            Aramstrongnumber s = new Aramstrongnumber();
             Console.WriteLine("enter the number");
             int n = int.Parse(Console.ReadLine());
             bool flag = s.IScheck(n);

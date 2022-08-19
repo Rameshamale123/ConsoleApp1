@@ -8,7 +8,7 @@ namespace ConsoleApp1.Loops
 {
     internal class Aramstrongnumber2
     {
-        public void CheckAramstrong(int num)
+        public void CheckAramstrong(int num)           // no return type with parameter    
         {
             int sum = 0;
             int copy = num;
@@ -33,7 +33,7 @@ namespace ConsoleApp1.Loops
             Aramstrongnumber2 s = new Aramstrongnumber2();
             Console.WriteLine("enter the number");
             int num = int.Parse(Console.ReadLine());
-            
+            s.CheckAramstrong(num);
             
         }
         

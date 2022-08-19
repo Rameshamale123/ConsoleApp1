@@ -3,7 +3,7 @@
    <PropertyGroup>
    <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
-	  <StartupObject>ConsoleApp1.Loops.Aramstrongnumber2</StartupObject>
+	  <StartupObject>ConsoleApp1.Loops.Dowhile1</StartupObject>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     </PropertyGroup>

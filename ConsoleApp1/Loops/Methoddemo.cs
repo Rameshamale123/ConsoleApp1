@@ -31,7 +31,11 @@ namespace ConsoleApp1.Loops
             double area = 3.14 * 3 * 3;
             return area;    
         }
-
+            //with return type with parameter
+        public int Cubeofnumber(int num)
+        {
+            return (num * num * num);
+        }
 
         static void Main(string[] args)
         {
@@ -48,6 +52,10 @@ namespace ConsoleApp1.Loops
 
             double result = d.AreaCircle ();
             Console.WriteLine(result);
+
+           // int cube = d.Cubeofnumber(3);
+           // Console.WriteLine(cube);
+            Console.WriteLine(d.Cubeofnumber(3));
         }
     }
 }
